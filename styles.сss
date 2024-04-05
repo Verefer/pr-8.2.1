@@ -1,0 +1,41 @@
+/* Убираем отступы и поля на странице по умолчанию */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, blockquote, pre, form, fieldset, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Устанавливаем цвета ссылок */
+a:link {
+    color: #D72020;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a:visited {
+    color: #D72020;
+}
+
+/* Настраиваем основное оформление страницы */
+body {
+    background: #FFD723 url(images/back_all.jpg) repeat-x;
+    font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+/* Оформляем шапку */
+#header {
+    background: #fff;
+    height: 306px;
+    text-align: left;
+}
+
+/* Оформляем горизонтальное меню */
+#menu {
+    border-left: 2px solid #fff;
+    width: 779px;
+    height: 80px;
+    background: url(images/header_top.gif) repeat-x;
+}
