@@ -39,3 +39,15 @@ body {
     height: 80px;
     background: url(images/header_top.gif) repeat-x;
 }
+
+
+/* Оформляем логотип */
+#logo {
+    background: #ffffff url(images/big_pic.jpg) no-repeat;
+    width: 738px;
+    height: 146px;
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 40px;
+    border-left: 4px solid #ffffff;
+}
